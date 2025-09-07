@@ -99,11 +99,3 @@ This project requires Python 3.8+ and the following Python libraries:
 ```bash
 pip install tensorflow keras numpy pandas matplotlib scikit-learn seaborn tqdm
 
-
-
-
----
-
-
-
----
