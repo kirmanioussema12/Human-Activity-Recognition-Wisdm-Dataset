@@ -64,6 +64,7 @@ The CNN-LSTM model with residual connections is structured as follows:
   - Detailed classification reports per fold.  
 
 ---
+ 
 
 ## 📊 Results
 - Achieved an average **accuracy of ~94%** on the WISDM dataset.  
@@ -71,6 +72,15 @@ The CNN-LSTM model with residual connections is structured as follows:
 - Macro F1-scores across folds showed **balanced classification across both majority and minority activity classes**.  
 
 ---
+## ⚠️ Notes
+- This work was conducted for **academic and experimental purposes**.  
+- Results are not intended as an official benchmark submission.  
+- Data augmentation (jittering) was applied to improve robustness but may not reflect standardized evaluation protocols.
+  
+## 📖 References
+- WISDM Dataset: [https://www.cis.fordham.edu/wisdm/dataset.php](https://www.cis.fordham.edu/wisdm/dataset.php)  
+- Residual Networks: K. He, et al. *Deep Residual Learning for Image Recognition*. CVPR 2016.  
+- CNN-LSTM applications in HAR: Ordóñez & Roggen. *Deep Convolutional and LSTM Recurrent Neural Networks for Multimodal Wearable Activity Recognition*. Sensors 2016.  
 ## Requirements
 
 This project requires Python 3.8+ and the following Python libraries:
@@ -84,22 +94,16 @@ This project requires Python 3.8+ and the following Python libraries:
 - [Seaborn](https://seaborn.pydata.org/) (optional, for enhanced plots)
 - [tqdm](https://tqdm.github.io/) (optional, progress bars for training loops)
 
-### Installation (via pip)
+## Installation (via pip)
 
 ```bash
 pip install tensorflow keras numpy pandas matplotlib scikit-learn seaborn tqdm
 
 
-## ⚠️ Notes
-- This work was conducted for **academic and experimental purposes**.  
-- Results are not intended as an official benchmark submission.  
-- Data augmentation (jittering) was applied to improve robustness but may not reflect standardized evaluation protocols.  
+
 
 ---
 
-## 📖 References
-- WISDM Dataset: [https://www.cis.fordham.edu/wisdm/dataset.php](https://www.cis.fordham.edu/wisdm/dataset.php)  
-- Residual Networks: K. He, et al. *Deep Residual Learning for Image Recognition*. CVPR 2016.  
-- CNN-LSTM applications in HAR: Ordóñez & Roggen. *Deep Convolutional and LSTM Recurrent Neural Networks for Multimodal Wearable Activity Recognition*. Sensors 2016.  
+
 
 ---
