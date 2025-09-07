@@ -71,6 +71,24 @@ The CNN-LSTM model with residual connections is structured as follows:
 - Macro F1-scores across folds showed **balanced classification across both majority and minority activity classes**.  
 
 ---
+## Requirements
+
+This project requires Python 3.8+ and the following Python libraries:
+
+- [TensorFlow](https://www.tensorflow.org/) (for building and training the CNN-BiLSTM model)
+- [Keras](https://keras.io/) (high-level API for neural networks, integrated with TensorFlow)
+- [NumPy](https://numpy.org/) (numerical computations)
+- [Pandas](https://pandas.pydata.org/) (data handling and preprocessing)
+- [Matplotlib](https://matplotlib.org/) (visualization, e.g., loss curves, PCA plots)
+- [Scikit-learn](https://scikit-learn.org/) (PCA, preprocessing, metrics)
+- [Seaborn](https://seaborn.pydata.org/) (optional, for enhanced plots)
+- [tqdm](https://tqdm.github.io/) (optional, progress bars for training loops)
+
+### Installation (via pip)
+
+```bash
+pip install tensorflow keras numpy pandas matplotlib scikit-learn seaborn tqdm
+
 
 ## ⚠️ Notes
 - This work was conducted for **academic and experimental purposes**.  
